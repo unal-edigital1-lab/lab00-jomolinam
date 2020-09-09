@@ -1,9 +1,9 @@
 # lab01- sumador 
-sebastian molina
+laboratorio 01 introduccion a HDL
 
 En esta plantilla debe adicionar la documentación del laboratorio
 
-* Nombres y Apellidos Estudiante 1
+* sebastian molina
 * Nombres y Apellidos Estudiante 2
 * Nombres y Apellidos Estudiante 3
 
