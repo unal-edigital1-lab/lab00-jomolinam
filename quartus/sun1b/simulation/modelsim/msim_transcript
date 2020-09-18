@@ -1,0 +1,44 @@
+# Reading pref.tcl
+# do sum1bcc_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/USER/Documents/2020-2/electronica\ digital\ l/github/lab00-jomolinam/quartus {C:/Users/USER/Documents/2020-2/electronica digital l/github/lab00-jomolinam/quartus/sum1bcc.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:51:03 on Sep 16,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/USER/Documents/2020-2/electronica digital l/github/lab00-jomolinam/quartus" C:/Users/USER/Documents/2020-2/electronica digital l/github/lab00-jomolinam/quartus/sum1bcc.v 
+# -- Compiling module sum1bcc
+# 
+# Top level modules:
+# 	sum1bcc
+# End time: 11:51:04 on Sep 16,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+vsim work.sum1bcc
+# vsim work.sum1bcc 
+# Start time: 11:52:47 on Sep 16,2020
+# Loading work.sum1bcc
+view -new wave
+# -new not supported on PE
+add wave -position insertpoint  \
+sim:/sum1bcc/A \
+sim:/sum1bcc/B \
+sim:/sum1bcc/Ci \
+sim:/sum1bcc/Cout \
+sim:/sum1bcc/S
+force -freeze sim:/sum1bcc/A 1 0
+force -freeze sim:/sum1bcc/B 1 0
+force -freeze sim:/sum1bcc/Ci 1 0
+run
+force -freeze sim:/sum1bcc/Ci 0 0
+force -freeze sim:/sum1bcc/Ci 0 0
+run
+# End time: 12:55:50 on Sep 16,2020, Elapsed time: 1:03:03
+# Errors: 0, Warnings: 0
