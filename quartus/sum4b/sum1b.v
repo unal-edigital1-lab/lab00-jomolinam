@@ -1,3 +1,5 @@
+`timescale 1ns / 1ps
+
 module sum1b (A,B,Ci,Cout,S);
 
   input A;
