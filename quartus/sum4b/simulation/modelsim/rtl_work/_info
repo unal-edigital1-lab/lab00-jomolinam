@@ -1,0 +1,84 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/USER/Documents/2020-2/electronica digital l/github/lab00-jomolinam/quartus/sum4b/simulation/modelsim
+vsum1b
+Z1 !s110 1600821534
+!i10b 1
+!s100 RAI:f4Yk95Shn7kW5eUBS3
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IJ8e4<4gd@>RU_@7TKPn:B1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1600743076
+8C:/Users/USER/Documents/2020-2/electronica digital l/github/lab00-jomolinam/quartus/sum4b/sum1b.v
+FC:/Users/USER/Documents/2020-2/electronica digital l/github/lab00-jomolinam/quartus/sum4b/sum1b.v
+!i122 0
+L0 3 17
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1600821533.000000
+!s107 C:/Users/USER/Documents/2020-2/electronica digital l/github/lab00-jomolinam/quartus/sum4b/sum1b.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/USER/Documents/2020-2/electronica digital l/github/lab00-jomolinam/quartus/sum4b|C:/Users/USER/Documents/2020-2/electronica digital l/github/lab00-jomolinam/quartus/sum4b/sum1b.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work {+incdir+C:/Users/USER/Documents/2020-2/electronica digital l/github/lab00-jomolinam/quartus/sum4b}
+Z7 tCvgOpt 0
+vsum4b
+R1
+!i10b 1
+!s100 7h5m``k_eG;34oVa3@K641
+R2
+IVe<SazS9`2BD[OzDRJS^A0
+R3
+R0
+w1600743072
+8C:/Users/USER/Documents/2020-2/electronica digital l/github/lab00-jomolinam/quartus/sum4b/sum4b.v
+FC:/Users/USER/Documents/2020-2/electronica digital l/github/lab00-jomolinam/quartus/sum4b/sum4b.v
+!i122 1
+L0 3 16
+R4
+r1
+!s85 0
+31
+Z8 !s108 1600821534.000000
+!s107 C:/Users/USER/Documents/2020-2/electronica digital l/github/lab00-jomolinam/quartus/sum4b/sum4b.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/USER/Documents/2020-2/electronica digital l/github/lab00-jomolinam/quartus/sum4b|C:/Users/USER/Documents/2020-2/electronica digital l/github/lab00-jomolinam/quartus/sum4b/sum4b.v|
+!i113 1
+R5
+R6
+R7
+vsum4b_TB
+R1
+!i10b 1
+!s100 9Dn9oKKTVdO^Xkc>doPl=3
+R2
+IzB@f3:za<8NkzG@;_`ZFJ3
+R3
+R0
+w1600742441
+8C:/Users/USER/Documents/2020-2/electronica digital l/github/lab00-jomolinam/quartus/sum4b/sum4b_TB.v
+FC:/Users/USER/Documents/2020-2/electronica digital l/github/lab00-jomolinam/quartus/sum4b/sum4b_TB.v
+!i122 2
+L0 3 24
+R4
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/USER/Documents/2020-2/electronica digital l/github/lab00-jomolinam/quartus/sum4b/sum4b_TB.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/USER/Documents/2020-2/electronica digital l/github/lab00-jomolinam/quartus/sum4b|C:/Users/USER/Documents/2020-2/electronica digital l/github/lab00-jomolinam/quartus/sum4b/sum4b_TB.v|
+!i113 1
+R5
+R6
+R7
+nsum4b_@t@b
