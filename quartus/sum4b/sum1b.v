@@ -8,13 +8,15 @@ module sum1b (A,B,Ci,Cout,S);
   output Cout;
   output S;
 
-  reg [1:0] st;
+  wire [1:0] st;
   
   assign S = st[0];
   assign Cout = st[1];
 
- always @ ( * ) begin 
-         st = A + B + Ci;
+ /*always @ ( * ) begin 
+       assing st = A + B + Ci;
 			end
+			*/
+	assign st  = 	A+B+Ci;
 endmodule
 			
